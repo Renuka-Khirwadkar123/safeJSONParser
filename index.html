@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Safe JSON Parser 🔐</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="container">
+    <h1>Safe JSON Parser 🔐</h1>
+
+    <textarea id="jsonInput" placeholder="Paste JSON here..."></textarea>
+
+    <button id="validateBtn">Validate</button>
+
+    <pre id="output"></pre>
+
+    <button onclick="fillExample()">Load Example</button>
+
+    <div class="about">
+  <h2>🧠 About This Project</h2>
+  
+  <p>
+    I built this project to understand TypeScript concepts like 
+    <strong>Type Guards</strong> and <strong>Type Narrowing</strong> using a real-world example.
+  </p>
+
+  <p>
+    This Safe JSON Parser validates user input instead of blindly trusting data, 
+    ensuring better reliability and fewer runtime errors.
+  </p>
+
+  <p>
+    It demonstrates how to safely handle unknown data using custom type guards.
+  </p>
+</div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+
+</html>
